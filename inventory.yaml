@@ -1,0 +1,18 @@
+all:
+  children:
+    parents:
+      hosts:
+        ali:
+          ansible_host: 192.168.0.999
+      children:
+        manager:
+          hosts:
+            gin:
+              ansible_host: 192.168.0.999
+
+    kids:
+      hosts:
+        zin:
+          ansible_host: 192.168.0.999
+        lin:
+          ansible_host: 192.168.0.999
