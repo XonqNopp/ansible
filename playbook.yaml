@@ -1,0 +1,10 @@
+# Trying ansible
+---
+- name: install laptop
+  hosts: manager
+  tasks:
+    - name: pong
+      ansible.builtin.ping:
+    - name: log
+      ansible.builtin.debug:
+        msg: 'hello world'
