@@ -1,0 +1,3 @@
+[submodule "ansible_debian"]
+	path = ansible_debian
+	url = https://github.com/13pgeiser/ansible_debian.git
