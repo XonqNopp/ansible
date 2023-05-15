@@ -19,3 +19,4 @@ clone nidji + config username (local) + configure nginx
 clone recettes + config username (local)
 clone flying + config username (local)
 clone ansible + config username (local)
+configure homeserver file server (with credentials)
