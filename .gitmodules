@@ -1,3 +1,6 @@
 [submodule "ansible_debian"]
 	path = ansible_debian
 	url = https://github.com/13pgeiser/ansible_debian.git
+[submodule "debian_stable_preseed"]
+	path = debian_stable_preseed
+	url = https://github.com/13pgeiser/debian_stable_preseed.git
