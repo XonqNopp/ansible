@@ -1,12 +1,13 @@
 partition disk: rootfs, [intermediate], data
 install rootfs ubuntu LTS
 configure apt sources to follow latest
-update to latest
+update to latest: apt update && apt dist-upgrade && do-release-update && apt update && apt dist-upgrade
 tweak alt-tab
 tweak workspaces 3x3
 tweak sudoers to keep env and to enable insults
 configure EN-US and/or FR-CH
 configure users: admin + parent and/or kid1,2
+Also need a user with root access for ansible to run
 configure hostname (zalug-<host>)
 install git vim python mypy pylint libreoffice firefox
 configure firefox: morning coffee, tree style tab, swiss transfer, no script
