@@ -1,0 +1,11 @@
+---
+
+- name: Install shell packages
+  ansible.builtin.apt:
+    pkg:
+    - git
+    - git-lfs
+    - vim
+    - python3
+    - mypy
+    - pylint

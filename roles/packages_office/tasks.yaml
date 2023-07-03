@@ -1,0 +1,9 @@
+---
+
+- name: Install office apps
+  ansible.builtin.apt:
+    pkg:
+    - libreoffice
+    - pdftk
+    - vlc
+    - gimp

@@ -1,1 +1,3 @@
 ansible
+ansible-host
+python3-apt
