@@ -1,0 +1,13 @@
+---
+
+- name: Update packages references
+  ansible.builtin.apt:
+    update_cache: yes
+
+- name: Upgrade distribution
+  ansible.builtin.apt:
+    upgrade: dist
+
+- name: Autoremove useless packages
+  ansible.builtin.apt:
+    autoremove: yes
