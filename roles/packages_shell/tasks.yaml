@@ -5,7 +5,16 @@
     pkg:
     - git
     - git-lfs
+    - git-gui
+    - gitk
     - vim
     - python3
-    - mypy
+
+- name: Install python base tools
+  ansible.builtin.pip:
+    name:
+    - pip
+    - setuptools
     - pylint
+    - mypy
+    state: latest

@@ -1,22 +1,23 @@
 ??? partition disk: rootfs, [intermediate], data
 install rootfs ubuntu (LTS?)
 configure apt sources to follow latest
-update to latest: apt update && apt dist-upgrade && do-release-update && apt update && apt dist-upgrade; autoremove
+do-release-update
 tweak alt-tab
 tweak workspaces 3x3
 tweak sudoers to keep env and to enable insults
 configure EN-US and/or FR-CH
 configure users: admin + parent and/or kid1,2
 Also need a user with root access for ansible to run
-configure hostname (zalug-<host>)
-install git vim python mypy pylint libreoffice firefox
-configure firefox: morning coffee, tree style tab, swiss transfer, no script
+Configure ssh hosts/config ansible.builtin.known_hosts
+configure hostname (zalug-<host>) ansible.builtint.hostname
+configure firefox: morning coffee, tree style tab, no script
 configure printer
 configure wifi home+work
-install LaTeX TeXlive
+install LaTeX TeXlive ansible.builtin.script/shell/command
 install ansible deploy lint
-install nginx mysql/mariaDB php phpmd phpmyadmin
-clone config files (vash) and install (symlinks etc) + config username (local) + config github token
+ansible.builtin.git remote=upstream
+clone config files (vash) and install (symlinks ansible.builtin.file) + config username (local) + config github token
+nginx config: ansible.builtin.service name state=started/stopped/restarted/reloaded enable=true/false (for boot) or ansible.builtin.systemd?
 clone xonqnopp + config username (local) + configure nginx + config github token + MySQL database
 clone nidji + config username (local) + configure nginx + config github token + MySQL database
 clone recettes + config username (local) + config github token + install Qt

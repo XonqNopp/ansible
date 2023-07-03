@@ -1,0 +1,13 @@
+---
+
+- name: Install web server (LEMP)
+  ansible.builtin.apt:
+    pkg:
+    - nginx
+    - mysql
+    - php
+    - php-mysql
+    - phpmyadmin
+    - phpmd
+
+# mariaDB???
