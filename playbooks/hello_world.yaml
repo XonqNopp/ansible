@@ -1,9 +1,9 @@
 # Trying ansible
 ---
-- name: install laptop
+- name: Hello ansible
   hosts: manager
   tasks:
-    - name: pong
+    - name: ping
       ansible.builtin.ping:
     - name: log
       ansible.builtin.debug:
