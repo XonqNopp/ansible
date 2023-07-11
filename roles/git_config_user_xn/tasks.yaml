@@ -1,8 +1,8 @@
 ---
 
 - name: Git config XonqNopp
-  ansible.builtin.shell:
-    cmd:
-    - git config --local user.name XonqNopp
-    - git config --local user.email xonqnoppp@gmail.com
-    - git remote rename origin upstream  # fails if already applied
+  ansible.builtin.git:
+    cmd:  # TODO
+    - config --local user.name XonqNopp
+    - config --local user.email xonqnoppp@gmail.com
+    - remote rename origin upstream  # fails if already applied

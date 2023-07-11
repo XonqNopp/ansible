@@ -1,4 +1,4 @@
-??? partition disk: rootfs, [intermediate], data
+??? partition disk: rootfs, [intermediate], data + tmpfs
 install rootfs ubuntu (LTS?)
 configure apt sources to follow latest
 do-release-update
@@ -14,7 +14,7 @@ configure firefox: morning coffee, tree style tab, no script
 configure printer
 configure wifi home+work
 install LaTeX TeXlive ansible.builtin.script/shell/command
-install ansible deploy lint
+install ansible deploy lint (cross-check package names)
 ansible.builtin.git remote=upstream
 clone config files (vash) and install (symlinks ansible.builtin.file) + config username (local) + config github token
 nginx config: ansible.builtin.service name state=started/stopped/restarted/reloaded enable=true/false (for boot) or ansible.builtin.systemd?
@@ -26,3 +26,15 @@ clone ansible + config username (local) + config github token
 configure synology homeserver file server (with credentials)
 
 Maybe find a way to setup a cron job and/or daemon to sync some files with home server when available automatically? Warning threats...
+
+
+Abricotier: abricotier-<username>
+User
+HIN
+Firefox
+Office
+Mail
+Calendar
+Media
+WIfi
+Printer
