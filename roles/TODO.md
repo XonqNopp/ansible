@@ -1,6 +1,6 @@
 ??? partition disk: rootfs, [intermediate], data + tmpfs
 install rootfs ubuntu (LTS?)
-configure apt sources to follow latest
+??? configure apt sources to follow latest
 do-release-update
 tweak alt-tab
 tweak workspaces 3x3
@@ -10,9 +10,9 @@ configure users: admin + parent and/or kid1,2
 Also need a user with root access for ansible to run
 Configure ssh hosts/config ansible.builtin.known_hosts
 configure hostname (zalug-<host>) ansible.builtint.hostname
-configure firefox: morning coffee, tree style tab, no script
+configure firefox (one role for each): morning coffee, tree style tab, no script
 configure printer
-configure wifi home+work
+configure wifi homes x2 (abricots) + work x2
 install LaTeX TeXlive ansible.builtin.script/shell/command
 install ansible deploy lint (cross-check package names)
 ansible.builtin.git remote=upstream
@@ -36,5 +36,5 @@ Office
 Mail
 Calendar
 Media
-WIfi
+Wifi
 Printer
