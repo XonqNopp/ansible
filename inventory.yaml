@@ -1,18 +1,56 @@
 all:
-  children:
-    parents:
-      hosts:
-        ali:
-          ansible_host: 192.168.0.999
-      children:
-        manager:
+  xonqnopp:
+    children:
+      parents:
+        hosts:
+          ali:
+            ansible_host: 192.168.0.999
+        children:
+          manager:
+            hosts:
+              gin:
+                ansible_host: 192.168.0.999
+      kids:
+        hosts:
+          zin:
+            ansible_host: 192.168.0.999
+          lin:
+            ansible_host: 192.168.0.999
+
+  clown:
+    children:
+      parents:
+        hosts:
+          alg:
+            ansible_host: 192.168.0.999
+          children:
+            manager:
+              hosts:
+                jgu:
+                  ansible_host: 192.168.0.999
+        kids:
           hosts:
-            gin:
+            tgu:
+              ansible_host: 192.168.0.999
+            _gu:
               ansible_host: 192.168.0.999
 
-    kids:
-      hosts:
-        zin:
-          ansible_host: 192.168.0.999
-        lin:
-          ansible_host: 192.168.0.999
+  schmidini:
+    children:
+      parents:
+        hosts:
+          ans:
+            ansible_host: 192.168.0.999
+      kids:
+        hosts:
+          esc:
+            ansible_host: 192.168.0.999
+          jsc:
+            ansible_host: 192.168.0.999
+
+  abricotier:
+    hosts:
+      an_:
+        ansible_host: 192.168.0.999
+      m__:
+        ansible_host: 192.168.0.999
