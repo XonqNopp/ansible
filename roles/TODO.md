@@ -38,3 +38,4 @@ Calendar
 Media
 Wifi
 Printer
+Thunderbird (mail client) + launch at startup
