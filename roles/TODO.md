@@ -1,14 +1,9 @@
-??? partition disk: rootfs, [intermediate], data + tmpfs
-install rootfs ubuntu (LTS?)
-??? configure apt sources to follow latest
-do-release-update
-tweak alt-tab
-tweak workspaces 3x3
+# Prio high
+
 tweak sudoers to keep env and to enable insults
 configure EN-US and/or FR-CH
-configure users: admin + parent and/or kid1,2
-Also need a user with root access for ansible to run
-Configure ssh hosts/config ansible.builtin.known_hosts
+configure users: admin + parent and/or kid1,2 - disable default (if any) BUT be careful not to block ansible access - also generate ssh keys if needed
+Configure ssh hosts/config ansible.builtin.known_hosts - also do ssh-copy-id
 configure hostname (zalug-<host>) ansible.builtint.hostname
 configure firefox (one role for each): morning coffee, tree style tab, no script
 configure printer
@@ -25,8 +20,6 @@ clone flying + config username (local) + config github token
 clone ansible + config username (local) + config github token
 configure synology homeserver file server (with credentials)
 
-Maybe find a way to setup a cron job and/or daemon to sync some files with home server when available automatically? Warning threats...
-
 
 Abricotier: abricotier-<username>
 User
@@ -34,8 +27,25 @@ HIN
 Firefox
 Office
 Mail
-Calendar
-Media
+Calendar (thunderbird?), synced with cabinet
+Media VLC
 Wifi
 Printer
 Thunderbird (mail client) + launch at startup
+
+
+# Prio mid
+
+Mid and low should not be started before we have a usable solution
+
+
+# Prio low
+
+??? partition disk: rootfs, [intermediate], data + tmpfs
+install rootfs ubuntu (LTS?)
+Also need a user with root access for ansible to run
+??? configure apt sources to follow latest
+do-release-update
+tweak alt-tab
+tweak workspaces 3x3
+Maybe find a way to setup a cron job and/or daemon to sync some files with home server when available automatically? Warning threats...
