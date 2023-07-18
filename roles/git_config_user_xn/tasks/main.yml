@@ -1,5 +1,3 @@
----
-
 - name: Git config XonqNopp
   ansible.builtin.git:
     cmd:  # TODO
