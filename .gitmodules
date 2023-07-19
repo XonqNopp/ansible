@@ -13,9 +13,6 @@
 [submodule "roles/web-nginx"]
 	path = roles/web-nginx
 	url = https://github.com/nginxinc/ansible-role-nginx.git
-[submodule "roles/system-pip"]
-	path = roles/system-pip
-	url = https://github.com/geerlingguy/ansible-role-pip.git
 [submodule "roles/system-samba"]
 	path = roles/system-samba
 	url = https://github.com/geerlingguy/ansible-role-samba.git

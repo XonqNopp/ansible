@@ -1,6 +1,0 @@
-- name: Install firefox
-  ansible.builtin.apt:
-    pkg:
-    - firefox
-
-# TODO: morning coffee, tree style tab
