@@ -5,6 +5,12 @@ and
 https://github.com/13pgeiser/debian_stable_preseed
 
 
+Goal of this repo is to easily (re-)install
+computers for home of XonqNopp+Clowns,
+computers for Abricotier,
+phones for home of XonqNopp,
+phones for Abricotier.
+
 
 ## Notes on ansible.builtin
 

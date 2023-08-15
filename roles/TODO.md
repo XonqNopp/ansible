@@ -1,5 +1,7 @@
 # Prio high
 
+playbook to do updates. But need ssh through network... Or gateway (RPi)?
+
 tweak sudoers to keep env and to enable insults
 configure EN-US and/or FR-CH
 configure users: admin + parent and/or kid1,2 - disable default (if any) BUT be careful not to block ansible access - also generate ssh keys if needed
@@ -19,6 +21,8 @@ clone recettes + config username (local) + config github token + install Qt
 clone flying + config username (local) + config github token
 clone ansible + config username (local) + config github token
 configure synology homeserver file server (with credentials)
+desktop backgrounds
+parental control
 
 
 Abricotier: abricotier-<username>
@@ -34,12 +38,63 @@ Printer
 Thunderbird (mail client) + launch at startup
 
 
-# Prio mid
+### Phones
 
-Mid and low should not be started before we have a usable solution
+update
+configure google account
+install apps:
+- whatsapp
+- threema
+- maps.me
+- google maps
+- cff
+- gmail
+- firefox, possible to configure links?
+- instagram
+- rts info
+- youtube
+- anylist, configure???
+- resair, configure???
+- gps tracker
+- suissemobile, configure???
+- ds file
+- ds finder
+- ds audio
+- ds photos
+- twint raiffeisen+ubs
+- raiffeisen photo tan
+- raiffeisen mobile scan
+- UBS access
+- danstonchat
+- klapp, configure???
+- freesurf cff
+- anibis, configure???
+- rega, configure???
+- rettemi.ch, configure???
+- local.ch, configure???
+- alertswiss, configure???
+- google traduction
+- groupe mutuel, configure???
+- meteoswiss, configure???
+- mobility, configure???
+- planets
+- plant.net
+- postcard creator
+- publibike???
+- qoqa, configure???
+- reka, configure???
+- splash, configure???
+- swisstopo???
+- x/twitter, configure???
+configure apps only with wifi
+configure wifi (same as computers)
+parental control
+
 
 
 # Prio low
+
+Low should not be started before we have a usable solution
 
 ??? partition disk: rootfs, [intermediate], data + tmpfs
 install rootfs ubuntu (LTS?)

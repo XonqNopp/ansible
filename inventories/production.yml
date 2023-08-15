@@ -1,4 +1,4 @@
-all:
+computers:
   xonqnopp:
     children:
       parents:
@@ -52,5 +52,34 @@ all:
     hosts:
       an_:
         ansible_host: 192.168.0.999
-      m__:
+      na_:
+        ansible_host: 192.168.0.999
+
+
+
+phones:
+  xonqnopp:
+    children:
+      parents:
+        hosts:
+          ali:
+            ansible_host: 192.168.0.999
+          gin:
+            ansible_host: 192.168.0.999
+      kids:
+        hosts:
+          zin:
+            ansible_host: 192.168.0.999
+          lin:
+            ansible_host: 192.168.0.999
+
+  abricotier:
+    hosts:
+      alg:
+        ansible_host: 192.168.0.199
+      ans:
+        ansible_host: 192.168.0.199
+      an_:
+        ansible_host: 192.168.0.999
+      na_:
         ansible_host: 192.168.0.999
