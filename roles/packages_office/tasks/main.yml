@@ -5,3 +5,6 @@
     - pdftk
     - vlc
     - gimp
+    - samba
+    - samba-common
+    state: present
