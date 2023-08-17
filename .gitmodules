@@ -4,9 +4,6 @@
 [submodule "debian_stable_preseed"]
 	path = debian_stable_preseed
 	url = https://github.com/13pgeiser/debian_stable_preseed.git
-[submodule "roles/system-ansible"]
-	path = roles/system-ansible
-	url = https://github.com/geerlingguy/ansible-role-ansible.git
 [submodule "roles/system-git"]
 	path = roles/system-git
 	url = https://github.com/geerlingguy/ansible-role-git.git
