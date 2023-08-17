@@ -1,0 +1,4 @@
+- name: restart_webserver
+  service:
+    name: nginx
+    state: restarted

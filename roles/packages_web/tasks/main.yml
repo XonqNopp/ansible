@@ -1,0 +1,15 @@
+- name: Install webserver packages
+  ansible.builtin.apt:
+    pkg:
+    - nginx
+    - mysql
+    - mariadb
+    - php
+    - php-common
+    - php-cli
+    - php-dev
+    - php-mysql
+    - phpmd
+    - phpmyadmin
+    state: present
+    notify: resart_webserver
