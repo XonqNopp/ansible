@@ -23,6 +23,7 @@ clone ansible + config username (local) + config github token
 configure synology homeserver file server (with credentials)
 desktop backgrounds
 parental control
+configure printer
 
 
 Abricotier: abricotier-<username>
@@ -40,34 +41,36 @@ Thunderbird (mail client) + launch at startup
 
 ### Phones
 
+Android+ansible?????
+
 update
 configure google account
 install apps:
-- whatsapp
-- threema
-- maps.me
-- google maps
-- cff
-- gmail
+- whatsapp, configure???
+- threema, configure???
+- maps.me, configure???
+- google maps, configure???
+- cff, configure???
+- gmail, configure???
 - firefox, possible to configure links?
-- instagram
+- instagram, configure???
 - rts info
-- youtube
+- youtube, configure???
 - anylist, configure???
 - resair, configure???
 - gps tracker
 - suissemobile, configure???
-- ds file
-- ds finder
-- ds audio
-- ds photos
-- twint raiffeisen+ubs
+- ds file, configure???
+- ds finder, configure???
+- ds audio, configure???
+- ds photos, configure???
+- twint raiffeisen+ubs, configure???
 - raiffeisen photo tan
 - raiffeisen mobile scan
-- UBS access
+- UBS access, configure???
 - danstonchat
 - klapp, configure???
-- freesurf cff
+- freesurf cff, configure???
 - anibis, configure???
 - rega, configure???
 - rettemi.ch, configure???
@@ -79,15 +82,15 @@ install apps:
 - mobility, configure???
 - planets
 - plant.net
-- postcard creator
+- postcard creator, configure???
 - publibike???
 - qoqa, configure???
 - reka, configure???
 - splash, configure???
 - swisstopo???
 - x/twitter, configure???
-configure apps only with wifi
-configure wifi (same as computers)
+configure apps only with wifi (disable mobile data)
+configure wifi networks (same as computers)
 parental control
 
 
