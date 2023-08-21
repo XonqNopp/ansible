@@ -4,21 +4,9 @@
 [submodule "debian_stable_preseed"]
 	path = debian_stable_preseed
 	url = https://github.com/13pgeiser/debian_stable_preseed.git
-[submodule "roles/web-nginx"]
-	path = roles/web-nginx
-	url = https://github.com/nginxinc/ansible-role-nginx.git
-[submodule "roles/web-php"]
-	path = roles/web-php
-	url = https://github.com/geerlingguy/ansible-role-php.git
 [submodule "roles/web-mysql"]
 	path = roles/web-mysql
 	url = https://github.com/geerlingguy/ansible-role-mysql.git
-[submodule "roles/web-phpmyadmin"]
-	path = roles/web-phpmyadmin
-	url = https://github.com/robertdebock/ansible-role-phpmyadmin.git
-[submodule "roles/web-phpmd"]
-	path = roles/web-phpmd
-	url = https://github.com/devsoul/ansible-role-phpmd.git
 [submodule "roles/system-firefox"]
 	path = roles/system-firefox
 	url = https://github.com/staticdev/ansible-role-firefox.git
